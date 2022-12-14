@@ -1,0 +1,61 @@
+def demNguyenPhuAm():
+    nguyenAm = 0
+    phuAm = 0
+    num = '123457890'
+    strTest = str(input('>>NHAP CHUOI CAN DEM: '))
+    for i in strTest:
+        if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'
+                or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i == 'U'):
+            nguyenAm =+ 1
+        if (i != 'a' or i != 'e' or i != 'i' or i != 'o' or i != 'u'
+                    or i != 'A' or i != 'E' or i != 'I' or i != 'O' or i != 'U' or '\t' or '\n' or i != num):
+            phuAm = phuAm + 1
+    print(f"{nguyenAm}", end="\n")
+    print(f"{phuAm}", end="\n")
+
+
+t = int(input('CASE TEST: '))
+if 0 < t <= 100:
+    for i in range(t):
+        print(f"test {i+1}", end="\n")
+        demNguyenPhuAm()def demNguyenPhuAm():
+    nguyenAm = 0
+    phuAm = 0
+    num = '123457890'
+    strTest = str(input('>>NHAP CHUOI CAN DEM: '))
+    for i in strTest:
+        if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'
+                or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i == 'U'):
+            nguyenAm =+ 1
+        if (i != 'a' or i != 'e' or i != 'i' or i != 'o' or i != 'u'
+                    or i != 'A' or i != 'E' or i != 'I' or i != 'O' or i != 'U' or '\t' or '\n' or i != num):
+            phuAm = phuAm + 1
+    print(f"{nguyenAm}", end="\n")
+    print(f"{phuAm}", end="\n")
+
+
+t = int(input('CASE TEST: '))
+if 0 < t <= 100:
+    for i in range(t):
+        print(f"test {i+1}", end="\n")
+        demNguyenPhuAm()def demNguyenPhuAm():
+    nguyenAm = 0
+    phuAm = 0
+    num = '123457890'
+    strTest = str(input('>>NHAP CHUOI CAN DEM: '))
+    for i in strTest:
+        if (i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u'
+                or i == 'A' or i == 'E' or i == 'I' or i == 'O' or i == 'U'):
+            nguyenAm =+ 1
+        if (i != 'a' or i != 'e' or i != 'i' or i != 'o' or i != 'u'
+                    or i != 'A' or i != 'E' or i != 'I' or i != 'O' or i != 'U' or '\t' or '\n' or i != num):
+            phuAm = phuAm + 1
+    print(f"{nguyenAm}", end="\n")
+    print(f"{phuAm}", end="\n")
+
+
+t = int(input('CASE TEST: '))
+if 0 < t <= 100:
+    for i in range(t):
+        print(f"test {i+1}", end="\n")
+        demNguyenPhuAm()
