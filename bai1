@@ -1,0 +1,13 @@
+#Bài 1
+soChuoi = int(input(">>Nhập số chuỗi cần chuyển dổi: "))
+while(soChuoi <= 0 or soChuoi >= 100):
+    soChuoi = int(input(">>Vui lòng nhập lại số chuỗi cần chuyển đổi: "))
+
+strList = []
+for i in range (0, soChuoi, 1):
+    strList.append(str(input(f">>Nhập chuỗi {i + 1}: ")))
+
+print(strList)
+
+for i in strList:
+    print(i.title())
