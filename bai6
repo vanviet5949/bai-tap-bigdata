@@ -1,0 +1,13 @@
+"""bai 6"""
+# def thay_the(s1, s2, s3):
+#     print(s1.replace(s2, s3))
+#
+#
+# m = int(input("nhập vào số lần thực hiện: "))
+# if 0 < m <= 100:
+#     for i in range(m):
+#         s1 = input("nhập chuỗi vào đây: ")
+#         s2 = input("nhập chuỗi thay thế cũ: ")
+#         s3 = input("nhập chuỗi thay thế mới: ")
+#         print(f"test {i + 1}:", end="\n")
+#         thay_the(s1, s2, s3)
