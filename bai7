@@ -1,0 +1,11 @@
+"""cau 7"""
+# n = int(input("nhap so text: "))
+# for i in range(1, n+1):
+#     word = [x for x in input().split()]
+#     s = set()
+#     print(f"test {i}: ")
+#     for i in range:
+#         if i not in s:
+#             print(f'{i} ', end='')
+#             s.odd(i)
+#     print()
