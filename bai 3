@@ -1,0 +1,18 @@
+#"""bai 3"""
+# def a():
+#     str = input("Nhập chữ: ")
+#     word = str.split()
+#     return len(word)
+#
+#
+# t = int(input("Nhập so text: "))
+# if 0 < t <= 100:
+#     for i in range(t):
+#         print(f"Test {i+1}: {a()}")
+#
+# """bai 4"""
+# t = int(input("Nhập số text: "))
+# if t > 0 and t <= 100:
+#     for i in range(1, t + 1):
+#         str_word = input("Nhập chữ: ")
+#         print(str_word.replace("\t", " "))
